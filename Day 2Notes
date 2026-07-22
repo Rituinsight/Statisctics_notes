@@ -1,0 +1,92 @@
+📅 Day 2 – Measures of Central Tendency
+Measures of Central Tendency tell us the central or average value of a dataset.
+There are three main measures:
+Mean
+Median
+Mode
+1. Mean (Average)
+Definition
+The sum of all values divided by the total number of values.
+Formula
+Mean = ΣX ÷ N
+Where:
+ΣX = Sum of all values
+N = Number of observations
+Example
+Data: 10, 20, 30, 40, 50
+Mean = (10 + 20 + 30 + 40 + 50) ÷ 5
+Mean = 30
+Advantages
+Easy to calculate.
+Uses all observations.
+Disadvantages
+Affected by outliers.
+2. Median
+Definition
+The middle value after arranging data in ascending order.
+Example (Odd)
+5, 8, 10, 12, 20
+Median = 10
+Example (Even)
+5, 8, 10, 12
+Median = (8 + 10) ÷ 2
+Median = 9
+Advantages
+Not affected by outliers.
+Good for skewed data.
+3. Mode
+Definition
+The value that appears most frequently.
+Example
+2, 3, 4, 4, 5, 6
+Mode = 4
+Uses
+Finding the most common item.
+Useful for categorical data.
+Comparison
+Measure
+Meaning
+Best Used When
+Mean
+Average
+No outliers
+Median
+Middle value
+Data has outliers
+Mode
+Most frequent value
+Most common category/value
+Effect of Outliers
+Data A
+10, 12, 14, 16, 18
+Mean = 14
+Median = 14
+Data B
+10, 12, 14, 16, 100
+Mean = 30.4
+Median = 14
+Observation
+The Mean changes significantly because of the outlier (100), while the Median remains almost unchanged.
+Real-Life Applications
+Mean
+Average salary
+Average marks
+Monthly sales
+Median
+House prices
+Income distribution
+Property values
+Mode
+Most sold product
+Most common clothing size
+Most common blood group
+⭐ Key Takeaways
+Statistics helps us collect, organize, analyze, interpret, and present data.
+Data can be Qualitative or Quantitative.
+Population is the entire group; Sample is a subset of that group.
+Variables are characteristics that can take different values.
+Scales of Measurement are Nominal, Ordinal, Interval, and Ratio.
+Mean = Average.
+Median = Middle value.
+Mode = Most frequent value.
+Median is preferred when the dataset contains outliers.
