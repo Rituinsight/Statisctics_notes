@@ -1,0 +1,153 @@
+# 📊 Statistics – Day 3/60 Notes
+
+## Measures of Dispersion
+
+### What is Dispersion?
+
+**Definition:**
+Dispersion is the measure of how spread out the data values are from the center (mean or median).
+
+**Simple Definition:**
+
+> Dispersion tells us how much the data varies.
+
+### Example:
+
+Data A: **20, 20, 20, 20, 20**
+
+* Spread = Very Low
+
+Data B: **10, 15, 20, 25, 30**
+
+* Spread = High
+
+Although both datasets have the same mean (**20**), the second dataset is more spread out.
+
+---
+
+# Why is Dispersion Important?
+
+* Measures the variability of data.
+* Helps compare different datasets.
+* Detects consistency and outliers.
+* Used in Data Analytics, Finance, Machine Learning, and Research.
+
+---
+
+# Measures of Dispersion
+
+There are four main measures:
+
+1. Range
+2. Variance
+3. Standard Deviation
+4. Interquartile Range (IQR)
+
+---
+
+# 1. Range
+
+### Definition
+
+Range is the difference between the highest and lowest values.
+
+### Formula
+
+**Range = Maximum Value − Minimum Value**
+
+### Example
+
+Data: **5, 10, 15, 20, 25**
+
+Range = 25 − 5 = **20**
+
+---
+
+# 2. Variance
+
+### Definition
+
+Variance measures how far each value is from the mean.
+
+* Small variance = Data is close to the mean.
+* Large variance = Data is spread out.
+
+**Symbol:**
+
+* Population Variance = **σ²**
+* Sample Variance = **s²**
+
+---
+
+# 3. Standard Deviation (SD)
+
+### Definition
+
+Standard Deviation is the square root of variance. It shows the average distance of data values from the mean.
+
+### Interpretation
+
+* Low SD = Data is consistent.
+* High SD = Data has more variation.
+
+### Example
+
+Class A Marks:
+40, 42, 41, 39, 40 → Low SD
+
+Class B Marks:
+20, 35, 40, 55, 70 → High SD
+
+---
+
+# 4. Interquartile Range (IQR)
+
+### Definition
+
+IQR measures the spread of the middle 50% of the data.
+
+### Formula
+
+**IQR = Q3 − Q1**
+
+Where:
+
+* **Q1** = First Quartile (25%)
+* **Q3** = Third Quartile (75%)
+
+### Use
+
+* Detecting outliers.
+* Understanding data spread without extreme values.
+
+---
+
+# Difference Between Range and IQR
+
+| Range                          | IQR                       |
+| ------------------------------ | ------------------------- |
+| Uses highest and lowest values | Uses middle 50% of data   |
+| Affected by outliers           | Less affected by outliers |
+
+---
+
+# Real-Life Applications
+
+* **Range:** Highest and lowest temperature in a day.
+* **Variance:** Comparing investment risk.
+* **Standard Deviation:** Student marks, stock prices, quality control.
+* **IQR:** Detecting unusual values in datasets.
+
+---
+
+# ⭐ Quick Revision
+
+* **Dispersion** → Spread of data.
+* **Range** = Maximum − Minimum.
+* **Variance** → Measures data variability.
+* **Standard Deviation** → Square root of variance.
+* **IQR** = Q3 − Q1 (middle 50% of data).
+* **Higher SD** = More variation.
+* **Lower SD** = More consistency.
+
+📚 **Day 3 Complete!** This topic is one of the most important concepts in Statistics and is frequently used in **Data Analytics, Machine Learning, and Business Intelligence**.
