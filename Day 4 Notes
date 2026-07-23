@@ -1,0 +1,198 @@
+# 📊 Statistics Notes –
+
+## 1. Frequency
+
+### Definition
+
+Frequency is the number of times a particular value appears in a dataset.
+
+### Formula
+
+**Frequency = Count of occurrences**
+
+### Example
+
+Data: **5, 8, 5, 10, 8, 5**
+
+| Value | Frequency |
+| ----: | --------: |
+|     5 |         3 |
+|     8 |         2 |
+|    10 |         1 |
+
+---
+
+# 2. Frequency Distribution
+
+### Definition
+
+A frequency distribution is a table that organizes data into values or class intervals along with their frequencies.
+
+### Example
+
+|  Marks | Frequency |
+| -----: | --------: |
+|   0–20 |         3 |
+|  21–40 |         5 |
+|  41–60 |         8 |
+|  61–80 |         6 |
+| 81–100 |         3 |
+
+### Uses
+
+* Organizes large datasets.
+* Makes data easier to understand.
+* Helps create charts and graphs.
+
+---
+
+# 3. Histogram
+
+### Definition
+
+A histogram is a graph used to display the frequency distribution of continuous numerical data.
+
+### Characteristics
+
+* Bars touch each other (no gaps).
+* X-axis represents class intervals (bins).
+* Y-axis represents frequency.
+
+### Example
+
+Student marks grouped into intervals:
+
+* 0–20
+* 21–40
+* 41–60
+* 61–80
+* 81–100
+
+Each bar shows the number of students in that interval.
+
+---
+
+# 4. Types of Histograms (Based on Skewness)
+
+### a) Symmetric Histogram
+
+* Left and right sides are nearly equal.
+* Bell-shaped distribution.
+
+### b) Positively Skewed (Right-Skewed)
+
+* Tail extends to the right.
+* Mean > Median.
+
+### c) Negatively Skewed (Left-Skewed)
+
+* Tail extends to the left.
+* Mean < Median.
+
+---
+
+# 5. Types of Histograms (Based on Modes)
+
+### Unimodal
+
+One peak.
+
+### Bimodal
+
+Two peaks.
+
+### Multimodal
+
+More than two peaks.
+
+### Uniform
+
+Bars have nearly the same height.
+
+---
+
+# 6. Outliers
+
+### Definition
+
+Outliers are data values that are much higher or lower than the rest of the dataset.
+
+### Example
+
+Data:
+**10, 12, 13, 14, 15, 80**
+
+Here, **80** is an outlier.
+
+### Effects of Outliers
+
+* Affects the mean.
+* Increases the range.
+* Increases the standard deviation.
+* Can influence statistical analysis and machine learning models.
+
+### Detection Methods
+
+* Box Plot
+* IQR Method
+* Z-Score Method
+
+---
+
+# 7. Introduction to Box Plot
+
+### Definition
+
+A Box Plot (Box-and-Whisker Plot) is a graph that summarizes the distribution of data using the five-number summary.
+
+### Five-Number Summary
+
+* Minimum
+* Q1 (First Quartile)
+* Median (Q2)
+* Q3 (Third Quartile)
+* Maximum
+
+### Uses
+
+* Detect outliers.
+* Compare distributions.
+* Show data spread.
+
+---
+
+# 8. Introduction to Scatter Plot
+
+### Definition
+
+A Scatter Plot is a graph that displays the relationship between two numerical variables.
+
+### Example
+
+* Hours Studied vs Exam Marks
+* Advertising Cost vs Sales
+
+### Uses
+
+* Identifies trends.
+* Shows correlation between variables.
+* Detects clusters and outliers.
+
+---
+
+# ⭐ Quick Revision
+
+* **Frequency** → Number of times a value occurs.
+* **Frequency Distribution** → Table showing values with their frequencies.
+* **Histogram** → Graph showing frequency distribution of continuous data.
+* **Symmetric Histogram** → Equal shape on both sides.
+* **Positive Skew** → Tail to the right.
+* **Negative Skew** → Tail to the left.
+* **Unimodal** → One peak.
+* **Bimodal** → Two peaks.
+* **Multimodal** → More than two peaks.
+* **Outlier** → A value far from the rest of the data.
+* **Box Plot** → Shows the five-number summary and helps detect outliers.
+* **Scatter Plot** → Shows the relationship between two numerical variables.
+
+These concepts are essential for **Exploratory Data Analysis (EDA)** and are widely used in **Data Analytics, Machine Learning, and Business Intelligence**.
