@@ -1,0 +1,344 @@
+📊 Statistics for Data Analytics – Probability & Probability Distributions Notes
+
+1. What is Probability?
+
+Probability is the measure of how likely an event is to happen.
+
+Formula
+
+\text{Probability} = \frac{\text{Number of Favorable Outcomes}}{\text{Total Number of Outcomes}}
+
+Range:
+
+0 = Impossible Event
+
+1 = Certain Event
+
+
+Example: Rolling a fair die:
+
+Probability of getting 4 = 1/6
+
+
+
+---
+
+2. Basic Terms
+
+Experiment
+
+An action that produces outcomes.
+
+Example: Tossing a coin.
+
+
+Outcome
+
+The result of an experiment.
+
+Example: Head (H) or Tail (T).
+
+
+Sample Space (S)
+
+The set of all possible outcomes.
+
+Coin: {H, T}
+
+Die: {1,2,3,4,5,6}
+
+
+Event (E)
+
+A subset of the sample space.
+
+Example: Getting an even number on a die. E = {2,4,6}
+
+
+---
+
+3. Types of Events
+
+Simple Event: One outcome (getting 3).
+
+Compound Event: More than one outcome (getting an even number).
+
+Certain Event: Probability = 1.
+
+Impossible Event: Probability = 0.
+
+Mutually Exclusive Events: Cannot happen together.
+
+Independent Events: One event does not affect the other.
+
+Dependent Events: One event affects the other.
+
+
+
+---
+
+4. Conditional Probability
+
+Probability of Event A occurring given Event B has already occurred.
+
+Formula:
+
+P(A|B)=\frac{P(A\cap B)}{P(B)}
+
+Example: Probability of drawing an Ace after a King has been removed from a deck.
+
+
+---
+
+5. Bayes' Theorem
+
+Used to update the probability of an event based on new information.
+
+P(A|B)=\frac{P(B|A)\times P(A)}{P(B)}
+
+Applications:
+
+Medical diagnosis
+
+Spam detection
+
+Fraud detection
+
+Machine Learning
+
+
+
+---
+
+6. Random Variable
+
+A variable whose value depends on the outcome of a random experiment.
+
+Types
+
+Discrete Random Variable
+
+Countable values.
+
+Examples:
+
+Number of students
+
+Number of heads
+
+
+Continuous Random Variable
+
+Infinite measurable values.
+
+Examples:
+
+Height
+
+Weight
+
+Temperature
+
+
+
+---
+
+7. Probability Distribution
+
+A probability distribution shows all possible values of a random variable and their probabilities.
+
+
+---
+
+A. PMF (Probability Mass Function)
+
+Used for Discrete Random Variables.
+
+Examples:
+
+Coin toss
+
+Dice
+
+Number of customers
+
+
+
+---
+
+B. PDF (Probability Density Function)
+
+Used for Continuous Random Variables.
+
+Examples:
+
+Height
+
+Weight
+
+Time
+
+
+
+---
+
+8. Bernoulli Distribution
+
+A distribution with only two outcomes.
+
+Success (1)
+
+Failure (0)
+
+
+Examples:
+
+Pass/Fail
+
+Yes/No
+
+Head/Tail
+
+
+
+---
+
+9. Binomial Distribution
+
+Used when:
+
+Fixed number of trials (n)
+
+Two possible outcomes
+
+Probability remains constant
+
+Trials are independent
+
+
+Examples:
+
+Tossing a coin 10 times
+
+Defective products in a batch
+
+
+
+---
+
+10. Uniform Distribution
+
+Every outcome has an equal probability.
+
+Example: Rolling a fair die.
+
+
+---
+
+11. Normal Distribution (Gaussian Distribution)
+
+A bell-shaped distribution where most values are near the mean.
+
+Properties:
+
+Mean = Median = Mode
+
+Symmetrical
+
+Bell-shaped curve
+
+
+Examples:
+
+Heights
+
+IQ scores
+
+Exam marks
+
+
+
+---
+
+12. Standardization vs Normalization
+
+Standardization (Z-score)
+
+Mean = 0
+
+Standard Deviation = 1
+
+Used when data follows a normal distribution.
+
+
+Normalization
+
+Scales values between 0 and 1 (or another fixed range).
+
+Used in machine learning when features have different scales.
+
+
+
+---
+
+13. Empirical Rule (68–95–99.7 Rule)
+
+For a normal distribution:
+
+68% of data lies within ±1σ
+
+95% lies within ±2σ
+
+99.7% lies within ±3σ
+
+
+
+---
+
+🎯 Interview Questions
+
+Q1. Difference between PMF and PDF?
+
+PMF is for discrete variables.
+
+PDF is for continuous variables.
+
+
+Q2. Difference between Bernoulli and Binomial Distribution?
+
+Bernoulli has one trial.
+
+Binomial has multiple independent trials.
+
+
+Q3. When do we use Normal Distribution?
+
+When data is approximately bell-shaped and symmetric.
+
+
+Q4. Difference between Standardization and Normalization?
+
+Standardization centers data around mean 0 with standard deviation 1.
+
+Normalization rescales data to a fixed range, commonly 0–1.
+
+
+
+---
+
+📌 Summary
+
+✅ Probability Basics
+✅ Types of Events
+✅ Conditional Probability
+✅ Bayes' Theorem
+✅ Random Variables
+✅ PMF & PDF
+✅ Bernoulli Distribution
+✅ Binomial Distribution
+✅ Uniform Distribution
+✅ Normal Distribution
+✅ Standardization vs Normalization
+✅ Empirical Rule (68–95–99.7)
+
+These topics are fundamental for Data Analytics, Machine Learning, SQL interviews, and Python-based data analysis.
