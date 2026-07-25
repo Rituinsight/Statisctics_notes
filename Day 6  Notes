@@ -1,0 +1,334 @@
+# 📊 Statistics Notes – Inferential Statistics (Data Analytics)
+
+---
+
+# 1. What is Inferential Statistics?
+
+### Definition
+
+**Inferential Statistics** is the branch of statistics that uses **sample data** to make conclusions or predictions about an entire **population**.
+
+Instead of studying everyone, we study a sample and infer (predict) the results for the whole population.
+
+### Example
+
+A company surveys **500 customers** out of **50,000 customers** to estimate customer satisfaction.
+
+---
+
+# Why is Inferential Statistics Important?
+
+* Makes predictions from sample data.
+* Saves time and cost.
+* Helps in decision-making.
+* Used in Data Analytics, Machine Learning, Business, Healthcare, Finance, and Research.
+
+---
+
+# 2. Population vs Sample
+
+### Population
+
+The complete group you want to study.
+
+**Example:**
+All voters in India.
+
+### Sample
+
+A smaller group selected from the population.
+
+**Example:**
+1,000 voters selected for a survey.
+
+| Population    | Sample               |
+| ------------- | -------------------- |
+| Entire group  | Part of the group    |
+| Large         | Small                |
+| Expensive     | Less expensive       |
+| More accurate | Faster and practical |
+
+---
+
+# 3. Confidence Interval (CI)
+
+### Definition
+
+A **Confidence Interval** is a range of values that is likely to contain the true population parameter.
+
+It tells us **how confident we are** that the population value lies within a certain range.
+
+### Example
+
+Average salary = ₹50,000
+
+95% Confidence Interval:
+
+₹48,000 – ₹52,000
+
+This means we are **95% confident** the true average salary lies between ₹48,000 and ₹52,000.
+
+### Common Confidence Levels
+
+* 90%
+* 95%
+* 99%
+
+### Uses
+
+* Survey analysis
+* Business forecasting
+* Medical research
+* Data Analytics
+
+---
+
+# 4. Student's t-Distribution
+
+### Definition
+
+The **Student's t-Distribution** is used when:
+
+* Sample size is **small (n < 30)**.
+* Population standard deviation is **unknown**.
+
+It looks similar to the normal distribution but has **heavier tails**.
+
+### Example
+
+Testing the average marks of 20 students.
+
+### When to Use
+
+* Small datasets
+* Unknown population standard deviation
+
+---
+
+# 5. Hypothesis Testing
+
+### Definition
+
+Hypothesis Testing is a statistical method used to determine whether there is enough evidence to support a claim.
+
+---
+
+## Null Hypothesis (H₀)
+
+Assumes **no effect** or **no difference**.
+
+Example:
+"The new teaching method does **not** improve student performance."
+
+---
+
+## Alternative Hypothesis (H₁)
+
+Assumes there **is** an effect or difference.
+
+Example:
+"The new teaching method **improves** student performance."
+
+---
+
+## Steps in Hypothesis Testing
+
+1. State H₀ and H₁.
+2. Choose the significance level (α).
+3. Select the appropriate statistical test.
+4. Calculate the test statistic.
+5. Compare with the critical value or p-value.
+6. Accept or reject H₀.
+
+---
+
+# 6. Significance Level (α)
+
+### Definition
+
+The significance level is the maximum probability of making a **Type I Error**.
+
+Common value:
+
+[
+\alpha = 0.05
+]
+
+Meaning:
+There is a **5% chance** of rejecting a true null hypothesis.
+
+---
+
+# 7. p-value
+
+### Definition
+
+The **p-value** measures the strength of evidence against the null hypothesis.
+
+### Decision Rule
+
+* **p-value ≤ 0.05** → Reject H₀
+* **p-value > 0.05** → Fail to reject H₀
+
+---
+
+# 8. Types of Errors
+
+## Type I Error (False Positive)
+
+Rejecting a **true** null hypothesis.
+
+### Example
+
+A medical test says a healthy person has a disease.
+
+---
+
+## Type II Error (False Negative)
+
+Failing to reject a **false** null hypothesis.
+
+### Example
+
+A medical test says a sick person is healthy.
+
+---
+
+## Comparison
+
+| Type I Error    | Type II Error   |
+| --------------- | --------------- |
+| False Positive  | False Negative  |
+| Reject true H₀  | Accept false H₀ |
+| Probability = α | Probability = β |
+
+---
+
+# 9. Types of Tailed Tests
+
+## Left-Tailed Test
+
+Checks whether the parameter is **less than** a specified value.
+
+Example:
+
+H₁: μ < 50
+
+---
+
+## Right-Tailed Test
+
+Checks whether the parameter is **greater than** a specified value.
+
+Example:
+
+H₁: μ > 50
+
+---
+
+## Two-Tailed Test
+
+Checks whether the parameter is **different from** a specified value.
+
+Example:
+
+H₁: μ ≠ 50
+
+---
+
+# 10. Z-Test
+
+### Definition
+
+A **Z-Test** is used to compare a sample mean with a population mean when:
+
+* Sample size is **30 or more**.
+* Population standard deviation is **known**.
+* Data is approximately normally distributed.
+
+### Applications
+
+* Comparing average sales.
+* Comparing average salaries.
+* Product quality testing.
+
+---
+
+# Difference Between Z-Test and t-Test
+
+| Z-Test                              | t-Test                                |
+| ----------------------------------- | ------------------------------------- |
+| Sample size ≥ 30                    | Sample size < 30                      |
+| Population standard deviation known | Population standard deviation unknown |
+| Uses Z-distribution                 | Uses t-distribution                   |
+
+---
+
+# Real-Life Applications
+
+### Data Analytics
+
+* A/B Testing
+* Customer satisfaction surveys
+* Product performance analysis
+
+### Healthcare
+
+* Clinical trials
+* Drug effectiveness
+
+### Finance
+
+* Investment analysis
+* Risk assessment
+
+### Business
+
+* Sales forecasting
+* Market research
+
+---
+
+# Interview Questions
+
+**Q1. What is Inferential Statistics?**
+Using sample data to make conclusions about a population.
+
+**Q2. What is a Confidence Interval?**
+A range likely to contain the true population parameter.
+
+**Q3. When do we use a t-Test?**
+When the sample size is small and the population standard deviation is unknown.
+
+**Q4. What is a Null Hypothesis?**
+A statement that assumes there is no effect or difference.
+
+**Q5. What is a Type I Error?**
+Rejecting a true null hypothesis.
+
+**Q6. What is a Type II Error?**
+Failing to reject a false null hypothesis.
+
+**Q7. What is the difference between a one-tailed and a two-tailed test?**
+A one-tailed test checks for a difference in one direction only (greater than or less than), while a two-tailed test checks for a difference in either direction.
+
+---
+
+# ⭐ Quick Revision
+
+* **Inferential Statistics** → Draw conclusions about a population using sample data.
+* **Confidence Interval** → Range likely to contain the true population value.
+* **Student's t-Distribution** → Used for small samples and unknown population standard deviation.
+* **Hypothesis Testing** → Tests claims using sample data.
+* **H₀ (Null Hypothesis)** → No effect or no difference.
+* **H₁ (Alternative Hypothesis)** → There is an effect or difference.
+* **Type I Error** → False Positive.
+* **Type II Error** → False Negative.
+* **Left-Tailed Test** → Checks if the value is less than a specified value.
+* **Right-Tailed Test** → Checks if the value is greater than a specified value.
+* **Two-Tailed Test** → Checks if the value is different from a specified value.
+* **Z-Test** → Used for large samples (n ≥ 30) with known population standard deviation.
+
+## 📌 Data Analytics Tip
+
+Inferential Statistics is widely used in **A/B testing, customer analytics, market research, product experiments, forecasting, machine learning, and business decision-making**, making it one of the most important topics for aspiring Data Analysts.
