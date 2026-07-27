@@ -1,0 +1,156 @@
+# 📊 Statistics Notes – Correlation & Covariance (Day 21/60)
+
+## 1. Correlation
+
+### Definition
+
+**Correlation** measures the **strength and direction** of the relationship between two variables.
+
+It tells us:
+
+* Whether two variables move together.
+* How strong the relationship is.
+* Whether the relationship is positive or negative.
+
+### Formula
+
+[
+r=\frac{Cov(X,Y)}{\sigma_X \sigma_Y}
+]
+
+### Range of Correlation
+
+| Correlation Value | Meaning                      |
+| ----------------: | ---------------------------- |
+|                +1 | Perfect Positive Correlation |
+|                 0 | No Correlation               |
+|                -1 | Perfect Negative Correlation |
+
+### Types of Correlation
+
+### Positive Correlation (+)
+
+Both variables increase or decrease together.
+
+**Example:**
+
+* Study Hours ↑ → Exam Marks ↑
+* Advertising ↑ → Sales ↑
+
+### Negative Correlation (-)
+
+One variable increases while the other decreases.
+
+**Example:**
+
+* Price ↑ → Demand ↓
+* Speed ↑ → Travel Time ↓
+
+### Zero Correlation
+
+No relationship exists between variables.
+
+**Example:**
+
+* Shoe Size and Exam Marks
+
+---
+
+# 2. Covariance
+
+### Definition
+
+**Covariance** measures whether two variables move together.
+
+It tells us only the **direction** of the relationship, not its strength.
+
+### Formula
+
+[
+Cov(X,Y)=\frac{\sum (X-\bar X)(Y-\bar Y)}{n-1}
+]
+
+### Types of Covariance
+
+### Positive Covariance
+
+Variables move in the same direction.
+
+### Negative Covariance
+
+Variables move in opposite directions.
+
+### Zero Covariance
+
+No relationship between variables.
+
+---
+
+# 3. Correlation vs Covariance
+
+| Correlation                     | Covariance              |
+| ------------------------------- | ----------------------- |
+| Measures strength and direction | Measures only direction |
+| Range: -1 to +1                 | No fixed range          |
+| Unit-free                       | Depends on units        |
+| Easy to interpret               | Harder to interpret     |
+
+---
+
+# 4. Real-Life Applications in Data Analytics
+
+### Business
+
+* Analyze the relationship between **advertising and sales**.
+
+### Marketing
+
+* Understand **customer behavior** and buying patterns.
+
+### Finance
+
+* Measure relationships between **stock prices**.
+
+### Healthcare
+
+* Study the relationship between **exercise and heart health**.
+
+### Machine Learning
+
+* Select important features for predictive models.
+
+---
+
+# 5. Interview Questions
+
+**Q1. What is correlation?**
+Correlation measures the **strength and direction** of the relationship between two variables.
+
+**Q2. What is covariance?**
+Covariance measures whether two variables move together in the same or opposite direction.
+
+**Q3. What is the range of correlation?**
+**-1 to +1**
+
+**Q4. Which is easier to interpret?**
+**Correlation**, because it has a fixed range.
+
+**Q5. Does correlation imply causation?**
+**No.** Correlation shows association, not cause and effect.
+
+---
+
+# ⭐ Quick Revision
+
+* ✅ **Correlation** → Strength + Direction
+* ✅ **Covariance** → Direction only
+* ✅ **Positive Correlation** → Both variables increase/decrease together
+* ✅ **Negative Correlation** → One increases while the other decreases
+* ✅ **Zero Correlation** → No relationship
+* ✅ **Correlation Range** → **-1 to +1**
+* ✅ **Correlation is unit-free**
+* ✅ **Covariance depends on units**
+
+### 📌 Data Analytics Tip
+
+**Correlation** and **Covariance** are widely used in **Exploratory Data Analysis (EDA)**, **feature selection**, **financial analysis**, **predictive modeling**, and **machine learning** to understand relationships between variables before building analytical models.
